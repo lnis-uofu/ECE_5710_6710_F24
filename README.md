@@ -26,18 +26,24 @@ cd modelsim
   ```csh
 cd virtuoso
 ```
-### Labs 4
+### Lab 4
   Standard cell Evaluation Physical (CMOS Inverter)
   ```csh
 cd virtuoso
 ```
 
 ### Lab 5
+  Logic Synthesis
+    ```csh
+cd genus
+```
+
+### Lab 6
   Floorplanning and P&R of [picosoc](https://github.com/YosysHQ/picorv32/tree/master)
   ```csh
 cd innovus
 ```
-### Lab 6
+### Lab 7
 Chip Finish and Sign-off for [picosoc](https://github.com/YosysHQ/picorv32/tree/master)
 ```csh
 cd innouvs
