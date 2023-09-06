@@ -34,7 +34,7 @@ cd virtuoso
 
 ### Lab 5
   Logic Synthesis
-    ```csh
+  ```csh
 cd genus
 ```
 
