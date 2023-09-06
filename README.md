@@ -21,15 +21,27 @@ cd modelsim
   
   [RapidGPT](https://getrapidgpt.rapidsilicon.com/User/SignUp) Registration and Login
 
-### Labs 3 and 4
-  Standard cell evaluation and exploration (CMOS Inverter)
+### Labs 3 
+  Standard cell Evaluation Schematic (CMOS Inverter)
+  ```csh
+cd virtuoso
+```
+### Labs 4
+  Standard cell Evaluation Physical (CMOS Inverter)
+  ```csh
+cd virtuoso
+```
 
 ### Lab 5
   Floorplanning and P&R of [picosoc](https://github.com/YosysHQ/picorv32/tree/master)
-
+  ```csh
+cd innovus
+```
 ### Lab 6
 Chip Finish and Sign-off for [picosoc](https://github.com/YosysHQ/picorv32/tree/master)
-
+```csh
+cd innouvs
+```
 ### Project
   TBD
   
