@@ -18,5 +18,3 @@ cd modelsim
 ```
 ### Lab 2: RapidGPT
     [Visual Studio Code](https://code.visualstudio.com/download): Note: VS code is already installed on the CADE Machines.
-    [Visual Studio Code](https://code.visualstudio.com/download): Note: VS code is already installed on the CADE Machines.
-    [Design Test and Automation in Europe 2023](https://github.com/lnis-uofu/OpenFPGA_tutorials/tree/main/DATE23): 
