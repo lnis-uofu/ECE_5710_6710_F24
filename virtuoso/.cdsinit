@@ -1,0 +1,102 @@
+;#####################################################################
+;# Include Calibre from Mentor in Cadence for LVS/DRC/PEX verification
+;#####################################################################
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;
+; check CALIBRE_HOME
+;
+cal_home=getShellEnvVar("CALIBRE_HOME")
+if( cal_home==nil then
+    cal_home=getShellEnvVar("MGC_HOME")
+    if( cal_home!=nil then
+        printf("// CALIBRE_HOME environment variable not set; setting it to value of MGC_HOME\n");
+    )
+)
+
+if( cal_home!=nil && isDir(cal_home) && isReadable(cal_home) then
+
+    ; Load calibre.skl or calibre.4.3.skl, not both!
+
+    if( getShellEnvVar("MGC_CALIBRE_REALTIME_VIRTUOSO_ENABLED") && 
+        getShellEnvVar("MGC_REALTIME_HOME") && dbGetDatabaseType()=="OpenAccess" then
+      load(strcat(getShellEnvVar("MGC_REALTIME_HOME") "/lib/calibre.skl"))
+    else
+      ; Load calibre.skl for Cadence versions 4.4 and greater
+      load(strcat(cal_home "/lib/calibre.skl"))
+    )
+
+    ;;;;Load calibre.4.3.skl for Cadence version 4.3
+    ;;; load(strcat(cal_home "/lib/calibre.4.3.skl"))
+
+else
+
+    ; CALIBRE_HOME is not set correctly. Report the problem.
+
+    printf("//  Calibre Error: Environment variable ")
+
+    if( cal_home==nil || cal_home=="" then
+        printf("CALIBRE_HOME is not set.");
+    else
+        if( !isDir(cal_home) then
+            printf("CALIBRE_HOME does not point to a directory.");
+        else
+            if( !isReadable(cal_home) then
+                printf("CALIBRE_HOME points to an unreadable directory.");
+            )
+        )
+    )
+    printf(" Calibre Skill Interface not loaded.\n")
+
+    ; Display a dialog box message about load failure.
+
+    hiDisplayAppDBox(
+        ?name           'MGCHOMEErrorDlg
+        ?dboxBanner     "Calibre Error"
+        ?dboxText       "Calibre Skill Interface not loaded."
+        ?dialogType     hicErrorDialog
+        ?dialogStyle    'modal
+       ?buttonLayout   'Close
+    )
+)
+
+;##############################################################
+;# Open the Library Manager, position is set by .Xdefaults file
+;##############################################################
+	    (unless (getShellEnvVar "SKIP_CDSLIB_MANAGER")
+	      (ddsOpenLibManager))
+
+;###########################################################################################################
+;# Automatically setup the project directory (and saving) for the simulation in your ./simulation folder working directory
+;###########################################################################################################
+envSetVal("asimenv.startup" "projectDir" 'string "./simulation") 
+envSetVal("asimenv" "saveDir" 'string "./simulation") 
+
+;######################################
+;# Load .cdsenv file for layout tool
+;######################################
+(envLoadVals ?envFile  strcat( "./.cdsenv") ?tool "layout")
+
+;#################################
+;# Load the calibre pex setup file
+;#################################
+load(strcat(getShellEnvVar("virtuoso_setup_files") "/calibre/calibre_setup.skl"))
+
+;#################################
+;# Load the pop-up drf file fix
+;#################################
+load(strcat(getShellEnvVar("virtuoso_setup_files") "/calibre/CCSsuppressDispForm.il"))
+;envSetVal("layout" "drmSuppressSaveDialogBox" 'boolean t)
+
+;#################################
+;# Load the drf file
+;#################################
+envSetVal("graphic" "drfPath" 'string strcat(getShellEnvVar("pdk_dir") "/tsmc18rf_1.8v_3.3v/display.drf"))
+
+;#######################
+;# License ordering
+;#######################
+envSetVal("license" "VLSLicenseCheckoutOrder" 'string "GXL,XL,L")
+envSetVal("license" "ADELicenseCheckoutOrder" 'string "XL,GXL,L")
+envSetVal("license" "VSELicenseCheckoutOrder" 'string "XL,L")

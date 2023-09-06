@@ -1,0 +1,33 @@
+*drcRulesFile: /research/ece/lnis-teaching/Designkits/tsmc180nm/tsmc18rf_1.8v_3.3v/Calibre/Dummy_OD_PO_Calibre_0.18um.v210a/Dummy_OD_PO_Calibre_0.18um.210a
+*drcRulesFileLastLoad: 1542910822
+*drcRunDir: $PWD/calibre/drcpolyfill
+*drcLayoutPaths: pebble_game_top_sealring.calibre.db
+*drcLayoutPrimary: pebble_game_top_sealring
+*drcLayoutLibrary: pebble_game
+*drcLayoutView: layout
+*drcLayoutGetFromViewer: 1
+*drcResultsFile: pebble_game_polyfill.gds
+*drcResultsFormat: GDSII
+*drcResultsCellSuffix: _polyfill
+*drcResultsCheckText: 1
+*drcResultsCheckTextValue: ALL
+*drcCellName: 0
+*drcDRCMaxResultsAll: 1
+*drcSummaryFile: pebble_game_top_sealring.drc.summary
+*drcActiveRecipe: Checks selected in the rules file (Modified)
+*drcUserRecipes: {{Checks selected in the rules file (Modified)} {{group_unselect[1]} all {group_select[1]} rule_file {group_unselect[2]} density {check_unselect[1]} DRM.R.1}}
+*drcIncrDRCSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
+*drcIncrDRCLSFSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*drcIncrDRCGridSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnWarnLayoutOverwrite: 0
+*cmnShowOptions: 1
+*cmnResolution: 5
+*cmnNumTurbo: 15
+*cmnRunMT: 1
+*cmnRunHyper: 1
+*cmnSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
+*cmnLSFSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnGridSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnFDILayoutLibrary: pebble_game
+*cmnFDILayoutView: layout
+*cmnFDIDEFLayoutPath: pebble_game_top_sealring.def

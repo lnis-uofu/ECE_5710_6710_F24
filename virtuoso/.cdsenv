@@ -1,0 +1,9 @@
+;#Set the DRD edit mode to notify
+layout drdEditMode cyclic "notify"
+
+;#Set the DRD hierarchy Depth to current and below
+layout	drdEditHierDepth	int	1
+
+;#Set the x and y snap spacings to 0.01
+layout	xSnapSpacing	float	0.005
+layout	ySnapSpacing	float	0.005

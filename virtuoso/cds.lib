@@ -1,0 +1,9 @@
+
+
+DEFINE sealring $pdk_dir/sealring
+
+DEFINE SC_LIB /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/oa/SC_LIB
+DEFINE PADS_LIB /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/oa/PADS_LIB
+DEFINE rf2hsm1wm1 /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/oa/rf2hsm1wm1
+
+
