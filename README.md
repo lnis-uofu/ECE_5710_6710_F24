@@ -11,3 +11,9 @@ cd 5710_6710_F23
 ```csh
 source setup_enc.csh
 ```
+### Lab 1: Modelsim
+  1. Everything for Lab 1 is in modelsim directory.
+```csh
+cd modelsim
+```
+
