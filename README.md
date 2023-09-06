@@ -9,7 +9,7 @@ cd 5710_6710_F23
 ```
 2. Setup the environment variables in a `csh`/`tcsh` shell
 ```csh
-source setup_enc.csh
+source setup_enc.sh
 ```
 ### Lab 1: Modelsim
   1. Everything for Lab 1 is in the modelsim directory.
