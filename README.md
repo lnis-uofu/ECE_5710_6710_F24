@@ -17,4 +17,4 @@ source setup_enc.csh
 cd modelsim
 ```
 ### Lab 2: RapidGPT
-    [Visual Studio Code](https://code.visualstudio.com/download) Note: VS code is already installed on the CADE Machines.
+    [VisualStudioCode](https://code.visualstudio.com/download) Note: VS code is already installed on the CADE Machines.
