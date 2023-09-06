@@ -20,3 +20,16 @@ cd modelsim
   [VisualStudioCode](https://code.visualstudio.com/download) Note: VS code is already installed on the CADE Machines.
   
   [RapidGPT](https://getrapidgpt.rapidsilicon.com/User/SignUp) Registration and Login
+
+### Labs 3 and 4
+  Standard cell evaluation and exploration (CMOS Inverter)
+
+### Lab 5
+  Floorplanning and P&R of [picosoc](https://github.com/YosysHQ/picorv32/tree/master)
+
+### Lab 6
+Chip Finish and Sign-off for [picosoc](https://github.com/YosysHQ/picorv32/tree/master)
+
+### Project
+  TBD
+  
