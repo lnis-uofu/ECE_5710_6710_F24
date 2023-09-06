@@ -18,4 +18,5 @@ cd modelsim
 ```
 ### Lab 2: RapidGPT
   [VisualStudioCode](https://code.visualstudio.com/download) Note: VS code is already installed on the CADE Machines.
+  
   [RapidGPT](https://getrapidgpt.rapidsilicon.com/User/SignUp) Registration and Login
