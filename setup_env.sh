@@ -24,7 +24,7 @@ source /uusoc/facility/cad_tools/Mentor/mentor_setup.sh
 source /uusoc/facility/cad_tools/Cadence/cadence_setup.sh
 
 # Show the final environment configuration
-echo "---------------- Digital VLSI Design Envirnment ----------------"
+echo "---------------- Digital VLSI Design Environment ----------------"
 echo "Machine ....... : `uname -n` (`uname -r`)"
 echo "Linux ......... : `lsb_release -sd`"
 echo "----------------------------------------------------------------"
