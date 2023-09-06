@@ -21,8 +21,7 @@ cd modelsim
   
   [RapidGPT](https://getrapidgpt.rapidsilicon.com/User/SignUp) Registration and Login
 
-### Labs 3 
-  Standard cell Evaluation Schematic (CMOS Inverter)
+### Labs 3 Standard Cell Evaluation - Schematic
   ```csh
 cd virtuoso
 ```
