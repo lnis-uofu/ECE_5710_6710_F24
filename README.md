@@ -12,9 +12,9 @@ cd 5710_6710_F23
 source setup_enc.csh
 ```
 ### Lab 1: Modelsim
-  1. Everything for Lab 1 is in modelsim directory.
+  1. Everything for Lab 1 is in the modelsim directory.
 ```csh
 cd modelsim
 ```
 ### Lab 2: RapidGPT
-    [Visual Studio Code](https://code.visualstudio.com/download): Note: VS code is already installed on the CADE Machines.
+    [Visual Studio Code](https://code.visualstudio.com/download) Note: VS code is already installed on the CADE Machines.
