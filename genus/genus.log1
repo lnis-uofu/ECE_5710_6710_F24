@@ -1,0 +1,36 @@
+Cadence Genus(TM) Synthesis Solution.
+Copyright 2022 Cadence Design Systems, Inc. All rights reserved worldwide.
+Cadence and the Cadence logo are registered trademarks and Genus is a trademark
+of Cadence Design Systems, Inc. in the United States and other countries.
+
+[00:22:06.041298] Configured Lic search path (21.01-s002): /uusoc/facility/cad_tools/Cadence/common_license:/uusoc/facility/cad_tools/Mentor/common_license
+
+Version: 21.15-s080_1, built Fri Sep 23 11:57:55 PDT 2022
+Options: 
+Date:    Fri Sep 08 00:22:06 2023
+Host:    lnissrv4 (x86_64 w/Linux 4.18.0-372.13.1.el8_6.x86_64) (16cores*64cpus*2physical cpus*Intel(R) Xeon(R) Gold 6142 CPU @ 2.60GHz 22528KB) (526977172KB)
+PID:     1387805
+OS:      Red Hat Enterprise Linux release 8.7 (Ootpa)
+
+
+[00:22:06.445066] Periodic Lic check successful
+[00:22:06.445073] Feature usage summary:
+[00:22:06.445074] Genus_Synthesis
+Checking out license: Genus_Synthesis
+
+
+***********************************************************************************************************
+***********************************************************************************************************
+
+
+
+Loading tool scripts...
+Another Ctrl-C within 1 second will terminate the tool.
+CURRENT RESOURCES: RT {elapsed: 4s, ST: 4s, FG: 4s, CPU: 100.0%}, MEM {curr: 0.8G, peak: 0.8G, phys curr: 0.2G, phys peak: 0.2G}, SYS {load: 1.0, cpu: 64, total: 502.6G, free: 19.7G}
+
+Another Ctrl-C within 1 second will terminate the tool.
+CURRENT RESOURCES: RT {elapsed: 5s, ST: 5s, FG: 5s, CPU: 100.0%}, MEM {curr: 0.9G, peak: 0.9G, phys curr: 0.2G, phys peak: 0.2G}, SYS {load: 1.0, cpu: 64, total: 502.6G, free: 19.7G}
+
+Another Ctrl-C within 1 second will terminate the tool.
+CURRENT RESOURCES: RT {elapsed: 7s, ST: 6s, FG: 6s, CPU: 100.0%}, MEM {curr: 0.9G, peak: 0.9G, phys curr: 0.2G, phys peak: 0.2G}, SYS {load: 1.0, cpu: 64, total: 502.6G, free: 19.7G}
+Abnormal exit.
