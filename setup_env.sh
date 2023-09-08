@@ -1,5 +1,3 @@
-#setenv DISPLAY "lnissrv4.eng.utah.edu:1002"
-
 
 ########  THIS LINE MUST BE THE FIRST COMMAND LINE AFTER THE SHEBANG  ########
 set sourced=($_)
@@ -18,7 +16,6 @@ endif
 
 
 setenv pdk_dir /research/ece/lnis-teaching/Designkits/tsmc180nm/pdk
-#setenv virtuoso_setup_files $pwd/virtuoso
 setenv cadence_base /uusoc/facility/cad_tools/Cadence/IC6-15
 setenv CDS   $cadence_base/IC6-F15
 
