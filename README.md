@@ -25,8 +25,7 @@ cd modelsim
   ```csh
 cd virtuoso
 ```
-### Lab 4
-  Standard cell Evaluation Physical (CMOS Inverter)
+### Lab 4 Standard Cell Evaluation - Physical
   ```csh
 cd virtuoso
 ```
