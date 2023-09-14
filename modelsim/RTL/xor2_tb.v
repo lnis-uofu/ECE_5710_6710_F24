@@ -20,13 +20,13 @@ module xor2_tb;
     // Initialize inputs
     a = 0; b = 0;
     // Add a delay before starting the simulation
-    #10;
+    #20;
     b = 0; a = 1;
-    #10;
+    #20;
     b = 1; a = 0;
-    #10;
+    #20;
     b = 1; a = 1;
-    #10;
+    #20;
 
     
     // End the simulation
