@@ -49,5 +49,4 @@ cd innouvs
 ### Project
   TBD
 
-Modify readme to test git merege and pull funtionality
 
