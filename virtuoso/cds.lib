@@ -1,3 +1,5 @@
+# File Created by ALLEN DONALD BOSTON at Tue Sep 26 15:28:15 2023
+# assisted by CdsLibEditor
 
 
 DEFINE sealring $pdk_dir/sealring
@@ -5,5 +7,9 @@ DEFINE sealring $pdk_dir/sealring
 DEFINE SC_LIB /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/oa/SC_LIB
 DEFINE PADS_LIB /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/oa/PADS_LIB
 DEFINE rf2hsm1wm1 /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/oa/rf2hsm1wm1
+DEFINE tsmc18 /research/ece/lnis-teaching/Designkits/tsmc180nm/pdk/tsmc18
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+DEFINE analogLIB $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
 
-
+           
+DEFINE test_lib /research/ece/lnis/USERS/boston/ECE_5710_6710_F23/virtuoso/test_lib

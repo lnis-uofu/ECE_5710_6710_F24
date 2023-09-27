@@ -1,4 +1,4 @@
-
+#!/bin/tcsh
 ########  THIS LINE MUST BE THE FIRST COMMAND LINE AFTER THE SHEBANG  ########
 set sourced=($_)
 if ("$sourced" == "") then
@@ -18,6 +18,9 @@ endif
 setenv pdk_dir /research/ece/lnis-teaching/Designkits/tsmc180nm/pdk
 setenv cadence_base /uusoc/facility/cad_tools/Cadence/IC6-15
 setenv CDS   $cadence_base/IC6-F15
+setenv virtuoso_setup_files /research/ece/lnis/USERS/boston/DigitalVLSI/virtuoso
+setenv CALIBRE_HOME /uusoc/facility/cad_tools/Mentor/aoi_cal_2019.3_39.25
+
 
    #Setup the path for shared libraries
 
