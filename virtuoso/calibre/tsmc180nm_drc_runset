@@ -1,0 +1,19 @@
+*drcRulesFile: /research/ece/lnis-teaching/Designkits/tsmc180nm/pdk/Calibre/drc/DRC_Calibre_0.18um_0.16um_0.152um_LO_MM_RF_1.5V_1.8V_2.5V_3.3V_5V_215a/CLM18_LM16_LM152_3M.215a
+*drcRunDir: /research/ece/lnis/USERS/boston/ECE_5710_6710_F23/virtuoso/calibre/drc
+*drcLayoutPaths: inv.calibre.db
+*drcLayoutPrimary: inv
+*drcLayoutLibrary: test_lib
+*drcLayoutView: layout
+*drcLayoutGetFromViewer: 1
+*drcResultsFile: inv.drc.results
+*drcRHDBFile: inv.rhdb
+*drcSummaryFile: inv.drc.summary
+*drcActiveRecipe: Checks selected in the rules file (Modified)
+*drcUserRecipes: {{Checks selected in the rules file (Modified)} {{group_unselect[1]} all {group_select[1]} rule_file {group_unselect[2]} density {check_unselect[1]} DRM.R.1}}
+*drcDFMDefaultsResultsFile: inv.dfmDefaults.db
+*cmnSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
+*cmnLSFSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnGridSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnFDILayoutLibrary: test_lib
+*cmnFDILayoutView: layout
+*cmnFDIDEFLayoutPath: inv.def

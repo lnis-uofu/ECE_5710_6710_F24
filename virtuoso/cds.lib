@@ -10,4 +10,3 @@ DEFINE tsmc18 /research/ece/lnis-teaching/Designkits/tsmc180nm/pdk/tsmc18
 DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
 DEFINE analogLIB $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
 
-           

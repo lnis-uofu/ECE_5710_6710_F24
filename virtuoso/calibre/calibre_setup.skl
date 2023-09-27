@@ -1,0 +1,7 @@
+mgc_eview_globals~>cellMapFile="/research/ece/lnis-teaching/Designkits/tsmc180nm/pdk/Calibre/rcx/calview.cellmap"
+mgc_eview_globals~>calViewLogFile=strcat(getShellEnvVar("PWD") "/calibre/pex/calview.log")
+mgc_eview_globals->extViewType = "schematic"
+mgc_eview_globals->createUnmatchedTerminals = t
+mgc_eview_globals->preserveDeviceCase = t
+
+
