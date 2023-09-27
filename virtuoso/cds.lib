@@ -1,5 +1,4 @@
 # File Created by ALLEN DONALD BOSTON at Tue Sep 26 15:28:15 2023
-# assisted by CdsLibEditor
 
 
 DEFINE sealring $pdk_dir/sealring
@@ -12,4 +11,3 @@ DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
 DEFINE analogLIB $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
 
            
-DEFINE test_lib /research/ece/lnis/USERS/boston/ECE_5710_6710_F23/virtuoso/test_lib
