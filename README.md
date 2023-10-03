@@ -47,6 +47,6 @@ Chip Finish and Sign-off for [picosoc](https://github.com/YosysHQ/picorv32/tree/
 cd innouvs
 ```
 ### Project
-  TBD
+  Check Canvas
 
 
