@@ -1,5 +1,5 @@
 *drcRulesFile: /research/ece/lnis-teaching/Designkits/tsmc180nm/pdk/Calibre/drc/DRC_Calibre_0.18um_0.16um_0.152um_LO_MM_RF_1.5V_1.8V_2.5V_3.3V_5V_215a/CLM18_LM16_LM152_3M.215a
-*drcRunDir: /research/ece/lnis/USERS/boston/ECE_5710_6710_F23/virtuoso/calibre/drc
+*drcRunDir: ./
 *drcLayoutPaths: inv.calibre.db
 *drcLayoutPrimary: inv
 *drcLayoutLibrary: test_lib
