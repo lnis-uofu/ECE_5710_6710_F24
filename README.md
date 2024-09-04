@@ -4,7 +4,7 @@
 
 1. Checkout the repository
 ```sh
-git clone https://github.com/lnis-uofu/ECE_5710_6710_F23.git
+git clone https://github.com/lnis-uofu/ECE_5710_6710_F24.git
 cd 5710_6710_F23
 ```
 2. Setup the environment variables in a `csh`/`tcsh` shell
