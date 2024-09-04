@@ -10,3 +10,6 @@ DEFINE tsmc18 /research/ece/lnis-teaching/Designkits/tsmc180nm/pdk/tsmc18
 DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
 DEFINE analogLIB $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
 
+DEFINE RA1SHD_RD /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/oa/RA1SHD_RD
+DEFINE RF2SH /research/ece/lnis-teaching/Designkits/tsmc180nm/full_custom_lib/oa/RF2SH
+
