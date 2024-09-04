@@ -41,11 +41,6 @@ cd genus
   ```csh
 cd innovus
 ```
-### Lab 7
-Chip Finish and Sign-off for [picosoc](https://github.com/YosysHQ/picorv32/tree/master)
-```csh
-cd innouvs
-```
 ### Project
   Check Canvas
 
