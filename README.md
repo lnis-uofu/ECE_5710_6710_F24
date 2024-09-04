@@ -1,4 +1,4 @@
-# ECE_5710_6710_F23
+# ECE_5710_6710_F24
 
 ## Getting Started
 
